@@ -1,0 +1,26 @@
+case_id,image,issue_type,annotators,class_a,class_b,box_a,box_b,iou,ghi_chu_tu_dong
+C001,img_002.jpg,bo_sot_thua,101|102,van,,"[890,299,54,24]",,,Chỉ 101 vẽ van này. 102 bỏ sót hoặc 101 vẽ thừa.
+C002,img_002.jpg,sai_thuoc_tinh,101|102,car,car,"[560,248,147,120]","[560,248,147,120]",1.00,occluded_level: 101=2 vs 102=1
+C003,img_009.jpg,bo_sot_thua,101|102,person,,"[594,396,28,40]",,,Chỉ 101 vẽ person này. 102 bỏ sót hoặc 101 vẽ thừa.
+C004,img_009.jpg,bo_sot_thua,101|102,person,,"[208,300,24,44]",,,Chỉ 101 vẽ person này. 102 bỏ sót hoặc 101 vẽ thừa.
+C005,img_014.jpg,bo_sot_thua,101|102,,person,,"[0,178,186,332]",,Chỉ 102 vẽ person này. 101 bỏ sót hoặc 102 vẽ thừa.
+C006,img_014.jpg,co_can_review,102,person,,"[0,178,186,332]",,,"102 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C007,img_015.jpg,bo_sot_thua,101|102,,car,,"[230,112,175,92]",,Chỉ 102 vẽ car này. 101 bỏ sót hoặc 102 vẽ thừa.
+C008,img_015.jpg,co_can_review,102,car,,"[230,112,175,92]",,,"102 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C009,img_016.jpg,co_can_review,102,van,,"[0,276,329,244]",,,"102 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C010,img_016.jpg,sai_lop,101|102,truck,van,"[0,276,329,244]","[0,276,329,244]",1.00,"101 gán truck, 102 gán van cho cùng một vật"
+C011,img_019.jpg,co_can_review,102,car,,"[122,200,754,436]",,,"102 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C012,img_021.jpg,bat_dong_ignore,101|102,,,"[535,210,360,50]",,,Vùng ignore không ghép được với vùng của người kia.
+C013,img_021.jpg,bat_dong_ignore,101|102,,,,"[535,195,245,80]",,Vùng ignore không ghép được với vùng của người kia.
+C014,img_029.jpg,co_can_review,102,motorcycle,,"[255,224,370,148]",,,"102 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C015,img_029.jpg,iou_thap,101|102,motorcycle,motorcycle,"[332,232,242,140]","[255,224,370,148]",0.62,IoU 0.62 < ngưỡng 0.85 (box lệch/lỏng/thiếu phần vật)
+C016,img_032.jpg,bat_dong_ignore,101|102,person,,"[782,266,40,104]",,,Chỉ vùng ignore của 102 phủ box của 101.
+C017,img_032.jpg,bat_dong_ignore,101|102,person,,"[832,280,36,90]",,,Chỉ vùng ignore của 102 phủ box của 101.
+C018,img_035.jpg,co_can_review,101,tuk_tuk,,"[370,204,188,208]",,,"101 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C019,img_035.jpg,co_can_review,102,tuk_tuk,,"[356,110,212,302]",,,"102 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C020,img_035.jpg,iou_thap,101|102,tuk_tuk,tuk_tuk,"[370,204,188,208]","[356,110,212,302]",0.61,IoU 0.61 < ngưỡng 0.85 (box lệch/lỏng/thiếu phần vật)
+C021,img_036.jpg,co_can_review,102,van,,"[74,46,812,648]",,,"102 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C022,img_036.jpg,sai_lop,101|102,truck,van,"[74,46,812,648]","[74,46,812,648]",1.00,"101 gán truck, 102 gán van cho cùng một vật"
+C023,img_037.jpg,co_can_review,101,truck,,"[218,126,512,408]",,,"101 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C024,img_037.jpg,co_can_review,102,van,,"[218,126,512,408]",,,"102 gắn cờ can_review (ca mơ hồ, cần chốt quy tắc)"
+C025,img_037.jpg,sai_lop,101|102,truck,van,"[218,126,512,408]","[218,126,512,408]",1.00,"101 gán truck, 102 gán van cho cùng một vật"

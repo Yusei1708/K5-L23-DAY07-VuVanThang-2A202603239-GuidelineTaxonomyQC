@@ -1,0 +1,4 @@
+{
+  "kind": "semantic",
+  "summary": "Cập nhật v1.1 (pham_vi=lo): chốt R-04 phân loại pickup/mini-truck/nắp cap về truck (img_016, img_036, img_037); khóa R-07 chỉ ôm khung kết cấu xe và loại hàng hóa nhô khối (img_029, img_035); chuẩn hóa R-09 gán mờ chuyển động khi còn nhận dạng thân vật >= 20 px (img_014, img_015); siết R-11 ranh giới ignore_region không phủ người tách riêng (img_021, img_032) và kiểm lại toàn lô 40/40 ảnh."
+}

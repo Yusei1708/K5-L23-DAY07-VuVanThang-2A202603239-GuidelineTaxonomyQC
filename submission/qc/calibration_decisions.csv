@@ -1,0 +1,29 @@
+case_id,image,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline,nguoi_chot,phieu_sua,kiem_lai,pham_vi
+C001,img_002.jpg,Giữ box van phía xa nền đường phải (cao 24 px >= 20 px),R-11|R-12,v1.1,101,calib-v1.1 img_002 #van-xa,101 kiểm lại đạt,anh
+C002,img_002.jpg,Chốt occluded_level=2 cho xe tầng dưới bị thanh khung sàn che >30%,R-10,v1.1,101,calib-v1.1 img_002 #car-lower-mid,101 kiểm lại đạt,anh
+C003,img_009.jpg,Giữ box person cho tài xế thấy rõ qua kính buồng lái xe buýt,R-06,v1.1,101,calib-v1.1 img_009 #bus-driver,101 kiểm lại đạt,anh
+C004,img_009.jpg,Giữ box person cho người đứng trên ban công tầng 2 (cao 44 px >= 20 px),R-12,v1.1,101,calib-v1.1 img_009 #balcony-person,101 kiểm lại đạt,anh
+C005,img_014.jpg,Giữ box person cho người đi xe rìa trái dù bị mờ chuyển động nhưng rõ hình dáng,R-09,v1.1,101,calib-v1.1 img_014 #person-left,101 kiểm lại đạt cả lô,lo
+C006,img_014.jpg,Xác nhận R-09 cho ca mờ chuyển động rìa trái và tắt can_review,R-09,v1.1,101,calib-v1.1 img_014 #person-left,101 kiểm lại đạt cả lô,lo
+C007,img_015.jpg,Giữ box car cho ô tô sẫm màu đang di chuyển bị nhòe vẫn nhận dạng rõ thân xe,R-09,v1.1,101,calib-v1.1 img_015 #car-mid-dark,101 kiểm lại đạt cả lô,lo
+C008,img_015.jpg,Áp dụng R-09 đồng nhất trên toàn lô và tắt cờ can_review,R-09,v1.1,101,calib-v1.1 img_015 #car-mid-dark,101 kiểm lại đạt cả lô,lo
+C009,img_016.jpg,Tắt can_review và khóa tiêu chuẩn khung gầm cho songthaew rìa trái,R-04,v1.1,101,calib-v1.1 img_016 #truck-left,101 kiểm lại đạt cả lô,lo
+C010,img_016.jpg,Chốt lớp truck cho songthaew khung pickup cải tạo chở khách,R-04,v1.1,101,calib-v1.1 img_016 #truck-left,101 kiểm lại đạt cả lô,lo
+C011,img_019.jpg,Xác nhận lớp car cho xe diễu hành biển YR04 NUM có lái thật và tắt can_review,R-08,v1.1,101,calib-v1.1 img_019 #car-parade,101 kiểm lại đạt,anh
+C012,img_021.jpg,Gom vùng ignore_region phía xa bên phải về phạm vi [535 205 895 275],R-11,v1.1,101,calib-v1.1 img_021 #ignore-right,101 kiểm lại đạt cả lô,lo
+C013,img_021.jpg,Thống nhất ranh giới ignore_region không phủ lên người hoặc bus ở nền sau,R-11,v1.1,101,calib-v1.1 img_021 #ignore-right,101 kiểm lại đạt cả lô,lo
+C014,img_029.jpg,Tắt can_review sau khi loại bỏ phần ống sắt dài nhô ngoài thân xe máy,R-07,v1.1,101,calib-v1.1 img_029 #moto-center,101 kiểm lại đạt cả lô,lo
+C015,img_029.jpg,Siết box motorcycle ôm sát khung xe [332 232 574 372] khắc phục IoU 0.62,R-07,v1.1,101,calib-v1.1 img_029 #moto-center,101 kiểm lại đạt cả lô,lo
+C016,img_032.jpg,Không cho ignore_region trùm lên người đi bộ đứng tách riêng bên phải #782,R-11,v1.1,101,calib-v1.1 img_032 #person-right-1,101 kiểm lại đạt cả lô,lo
+C017,img_032.jpg,Không cho ignore_region trùm lên người áo hồng bên phải #832; tách bãi xe từ x=870,R-11,v1.1,101,calib-v1.1 img_032 #person-right-2,101 kiểm lại đạt cả lô,lo
+C018,img_035.jpg,Loại phần bao tải vượt nóc trên box tuk_tuk và tắt cờ can_review của lượt 101,R-07,v1.1,101,calib-v1.1 img_035 #tuk-center,101 kiểm lại đạt cả lô,lo
+C019,img_035.jpg,Hủy box lỏng bao trùm hàng hóa của lượt 102 và tắt can_review,R-07,v1.1,101,calib-v1.1 img_035 #tuk-center,101 kiểm lại đạt cả lô,lo
+C020,img_035.jpg,Chốt box tuk_tuk ôm đúng khung cab [370 204 558 412] khắc phục IoU 0.61,R-07,v1.1,101,calib-v1.1 img_035 #tuk-center,101 kiểm lại đạt cả lô,lo
+C021,img_036.jpg,Tắt can_review sau khi chốt CMC Veryca theo khung xe tải cabin rời thùng,R-04,v1.1,101,calib-v1.1 img_036 #truck-cmc,101 kiểm lại đạt cả lô,lo
+C022,img_036.jpg,Chốt lớp truck cho CMC Veryca cab-over thay vì van,R-04,v1.1,101,calib-v1.1 img_036 #truck-cmc,101 kiểm lại đạt cả lô,lo
+C023,img_037.jpg,Chốt pickup GO Transit nắp cap Master 75 theo hướng khung gầm và tắt can_review,R-04,v1.1,101,calib-v1.1 img_037 #truck-go,101 kiểm lại đạt cả lô,lo
+C024,img_037.jpg,Hủy nhãn van lưỡng lự của lượt 102 trên img_037 và tắt can_review,R-04,v1.1,101,calib-v1.1 img_037 #truck-go,101 kiểm lại đạt cả lô,lo
+C025,img_037.jpg,Thống nhất lớp truck cho pickup gắn nắp thùng cao trên toàn bộ lô ảnh,R-04,v1.1,101,calib-v1.1 img_037 #truck-go,101 kiểm lại đạt cả lô,lo
+Q01,img_034.jpg,Bổ sung các box person và motorcycle bị bỏ sót ở cụm xe máy midground trái đường,R-06,v1.1,101,round-01 -> calib-v1.1 img_034,101 kiểm lại đạt,anh
+Q02,img_036.jpg,Hạ cạnh trên ignore_region xuống y=196 tránh chạm box car phía trên,R-11,v1.1,101,round-01 -> calib-v1.1 img_036,101 kiểm lại đạt,anh
+Q03,img_037.jpg,Siết cạnh dưới box truck từ y=534 lên y=498 ôm sát bánh xe bỏ bóng đổ,R-12,v1.1,101,round-01 -> calib-v1.1 img_037 #247,101 kiểm lại đạt,anh
